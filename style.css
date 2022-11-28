@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 0px 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0.01px solid black inset;
+    border-radius: 5px;
+    background-color: #e9feff;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.5) inset;
+}
+.btn:hover{
+    box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
